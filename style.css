@@ -1,0 +1,99 @@
+/* Header */
+
+.intro {
+  display: flex;
+  float: right;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 100px;
+}
+
+.introtext {
+padding-right: 50px;
+}
+/* Abstand nach rechts zum Icon Bild */
+
+.ich {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+/* Bild erst quadratisch machen und durch border radius wird es rund */
+
+
+/* Body */
+
+
+body {
+  font-family: "Gabarito", sans-serif;
+  /* background-image: url("img/rosa2.jpg");
+  background-size: cover;
+  background-attachment: fixed; */
+  background-color: #fff8fa;
+}
+  
+  
+a:link { 
+text-decoration: none; 
+}
+/* kein Unterstrich bei Links */
+
+
+  a {
+    color: #ff799e;
+  }
+  /*Linkfarbe */
+
+img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.projects {
+  display: flex;
+  float: right;
+  padding: 100px 200px 0 200px
+}
+/* Container; nur float right funktioniert; padding bestimmt die Position */
+
+.projects > div:not(:last-child) {
+  margin-right: 2%;
+}
+/* Abstand zu den anderen Bildern? Responsive */
+
+/* funktioniert nur, wenn man bei flex für jedes Bild einzeln Breite/Höhe teilt */
+.project1 { 
+  flex: 0.6667; 
+  border: 1px solid #ccc;
+  background-color: white;
+}
+.project2 { 
+  flex: 1.4989;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+.project3 { 
+  flex: 1.4403;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+.beschreibung {
+  text-align: center;
+  padding: 15px;
+}
+
+.willkommen {
+  position: absolute;
+  bottom: 0;
+  left: 100px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+span {
+  font-size: 20px;
+}

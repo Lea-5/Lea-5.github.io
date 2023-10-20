@@ -1,0 +1,77 @@
+.intro {
+    display: flex;
+    float: right;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 100px;
+  }
+  
+  .ich {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  a:link { 
+  text-decoration: none; 
+  }
+  
+  
+  a {
+      color: #ff799e
+    }
+  
+  .introtext {
+  padding-right: 50px;
+  }
+  
+  body {
+    font-family: "Gabarito", sans-serif;
+    background-color: #fff8fa;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+  
+  .projects {
+    display: flex;
+    float: right;
+    padding: 100px 200px 0 200px
+  }
+  
+  .projects > div:not(:last-child) {
+    margin-right: 2%;
+  }
+  
+  .project1 { 
+    flex: 0.6667; 
+    border: 1px solid #ccc;
+  }
+  .project2 { 
+    flex: 0.6665;
+    border: 1px solid #ccc;
+  }
+  .project3 { 
+    flex: 1.5000;
+    border: 1px solid #ccc;
+  }
+  
+  .beschreibung {
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .text {
+    position: absolute;
+    bottom: 180px;
+    left: 200px;
+    font-size: 18px;
+  }
+  
+
+  
